@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Montserrat+Alternates:wght@100;800&family=Pacifico&family=Permanent+Marker&family=Playball&family=Rubik+Microbe&family=Teko:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    /*font-family: 'Cormorant Infant', serif;?*/
+/*font-family: 'Lora', serif;*/
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Pacifico', cursive;
+/*font-family: 'Permanent Marker', cursive;
+font-family: 'Playball', cursive;
+font-family: 'Rubik Microbe', cursive;*/
+font-family: 'Teko', sans-serif;
+
+}
+nav{
+     width:100%;
+     height: 100vh;
+     
+}
+.month{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    
+
+}
+.month h1{
+    margin-left: 70px;
+    font-size: 25px;
+    color: grey;
+}
+.month i{
+    margin-right: 75px;
+    font-size: 25px;
+}
+.my img{
+    width: 60%;
+    height: 70vh;
+    margin-left: 30vmax;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    z-index: -1;
+    
+}
+.mony{
+    width: 40%;
+    color: whitesmoke;
+    text-shadow: 5vmax;
+    background-color :rgba(255, 68, 0, 0.935);
+    padding: 1.5vmax 5vmax;
+    margin-left: 150px;
+    font-size: 35px;
+    font-weight: 100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    top: -100px;
+    left: 0;
+    
+    
+}
+header{
+    width: 100%; 
+}
+.pg{
+    display: flex; 
+}
+.line{
+    width: 60px;
+    height: 5px;
+    margin-left: 160px;
+     background-color: black;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    margin-top: 32px;
+}
+  .pg p {
+    margin-top: 30px;
+   margin-left: 30px;
+    
+}
+ h3{
+    margin-left: 250px;
+    margin-top: 20px;
+}
+ .moni button{
+    border: 2px solid black;
+    padding: 1vmax 3vmax;
+    margin-left: 250px;
+    margin-top: 20px;
+    color:  rgba(255, 68, 0, 0.935);
+}
+.riya{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.mont{
+    width: 30%;
+}
+.fon{
+    width: 18vw;
+    height: 30vh;
+    margin-top: 360px;
+    text-align: end;
+    align-items: center;
+    margin-left: 12vmax;
+}
+
+
+
+.fon h6{
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 10vmax;
+}
+.main{
+    width: 70%;
+    display: flex;
+    
+}
+.gun{
+      width: 50vw;
+      height: 20vh;
+      margin-top: 300px;
+}
+.gun p{
+    padding: 1vmax 1vmax;
+    font-size: 15px;
+    margin-right: vmax;
+}
+.kite img{
+    width: 22vw;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+.kite h1{
+    width: 100px;
+    color: rgba(255, 68, 0, 0.935);
+    padding: 1vmax 3vmax;
+    font-size: 45px;
+    text-shadow: 2px;
+    position: relative;
+    top: -310px;
+    left: 230px;
+    
+
+}
+.minu p{
+    padding: 1vmax 1vmax;
+    margin-left: 50px;
+   
+}
+.minu img{
+   width: 25vw;
+   height: 42vh;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-right: 22vmax;
+   border: 5px solid rgba(255, 68, 0, 0.935);
+   position: relative;
+   top: 400px;
+   left: 0px;
+
+}
+section{
+    width: 100%;
+    
+}
+.post{
+    width: 90%;
+    display: flex;
+    margin-top: 10vmax;
+    margin-left: 5vmax;
+    background-color: bisque;
+}
+.prince{
+align-items: center;
+text-align: center;
+padding: 1vmax 5vmax;
+color: white;
+background-color: rgb(24, 18, 18);
+
+}
+.prince h1{
+margin-top: 20px;
+}
+.prince button{
+    margin-top: 20px;
+    padding: 1vmax 2vmax;
+    color: white;
+    background-color:rgba(255, 68, 0, 0.935);
+    border-radius: 5px;
+}
+.giri{
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    margin-left: 5vmax;
+    background-color: blue;
+}
+
+.fit{
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    padding: 1vmax 4vmax;
+    background-color: aliceblue;
+
+}
+.fit h1{
+    margin-top: 20px;
+}
+.fit button{
+    margin-top: 20px;
+    padding: 1vmax 1.5vmax;
+    background-color: rgba(255, 68, 0, 0.935);
+    border-radius: 5px;
+    border: 2px solid aliceblue;
+}
+.we{
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    padding: 1vmax 4vmax;
+    
+    background-color: rgba(255, 68, 0, 0.935);
+
+}
+.we h1{
+    margin-top: 20px;
+}
+.we button{
+    margin-top: 20px;
+    padding: 1vmax 1.5vmax;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.ola{
+    margin-left: 70px;
+
+}
+.mine{
+    margin-top: 50px;
+    font-size: 30px;
+color: rgba(255, 68, 0, 0.935);
+
+}
+.mine p{
+    color: black;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+.kine{
+    width:50px;
+    height: 5px;
+    margin-top: 25px;
+    background-color: rgba(255, 68, 0, 0.935);
+}
+.bua{
+    margin-top: 25vmax;
+    padding: 3vmax 4vmax;
+    background-color: rgba(255, 68, 0, 0.935);
+}
+.tanu{
+    display: flex;
+}
+.tanu i{
+    color: rgba(255, 68, 0, 0.935);
+    font-size: 22px;
+
+
+}
+.more{
+    margin-top: -259px;
+    margin-left: 60px;
+}
+.tanu h6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mini{
+margin-top: -170px;
+}
+.mili{
+    margin-left: 50px;
+margin-top: -100px;
+}
+.mohit{
+    width: 90%;
+    display: flex;
+}
+.meri{
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    padding: 1vmax 5vmax;
+    color: white;
+    background-color:rgba(255, 68, 0, 0.935);
+}
+.meri i{
+font-size: 65px;
+}
+h1{
+    margin-top: 30px;
+}
+.most{
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    padding: 1vmax 5vmax;
+    background-color:aliceblue;
+}
+.most i{
+     font-size: 65px;
+}
+.most h1{
+    margin-top: 35px;
+}
+.pihu{
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.tera{
+    width: 90%;
+    display: flex;
+}
+.mohi{
+width: 30%;
+
+}
+.holi{
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    padding: 1vmax 5vmax;
+    color: white;
+    background-color: rgb(31, 31, 28);
+}
+  .ri-gatsby-line{
+    font-size: 65px;
+    margin-top: 65px;
+}
+.holi h1{
+    margin-top: 40px;
+}
+.pent{
+    width: 30%;
+}
+.logic{
+    width: 100%;
+    height: 60vh;
+    margin-top: 50px;
+    display: flex;
+}
+.man{
+    width: 30%;
+    padding: 5vmax 6vmax;
+    font-size: 25px;
+    color: rgba(255, 68, 0, 0.935);
+}
+.mid{
+    width: 40%;
+    font-size: 25px;
+    padding: 7vmax 7vmax;
+
+}
+.right{
+    width: 25%;
+    height: 70vh;
+    padding: 2vmax 4.5vmax;
+background-color: rgba(169, 162, 162, 0.204);
+}
+.love{
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+    font-size: 35px;
+}
+.ni h1{
+    color: rgba(255, 68, 0, 0.935);
+}
+.ni button{
+    color: black;
+    background-color: whitesmoke;
+    padding: 1vmax 2vmax;
+    border: 2px solid rgba(255, 68, 0, 0.935);
+    border-radius: 5px;
+}
+.murti{
+    width: 100%;
+    height: 80vh;
+    margin-top: 250px;
+    background-image: url(https://images.unsplash.com/photo-1604329051903-d89ddd523330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.mahek{
+     
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2vmax 2vmax;
+    color: white;
+    position: relative;
+    top: -150px;
+    left: 0;
+
+}
+.mahek i{
+    font-size: 35px;
+} 
+
+.palak{
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    align-items: center;
+    margin-left: 40px;
+    padding: 4vmax 4vmax;
+background-color: rgba(255, 68, 0, 0.935);
+}
+.pooja{
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    align-items: center;
+    margin-left: 40px;
+    padding: 4vmax 4vmax;
+background-color: rgba(255, 68, 0, 0.935);
+}
+.dev{
+    width: 20%;
+    height: 20%;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+    padding: 4vmax 4vmax;
+background-color: rgba(255, 68, 0, 0.935);
+}
+.fun{
+    width: 20%;
+    height: 20%;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+    padding: 4vmax 4vmax;
+background-color: rgba(255, 68, 0, 0.935);
+}
+.topi{
+width: 100%;
+height: 100%;
+display: flex;
+}
+.moti{
+margin-left: 0px;
+}
+.liccha{
+    width: 50%;
+    
+}
+.moti{
+    margin-top: 8vmax;
+ padding: 2vmax 4vmax;
+}
+.moti h4{
+    color: rgba(128, 128, 128, 0.67);
+}
+.moti h5{
+    color: rgba(128, 128, 128, 0.67);
+}
+.moti h2{
+    color: rgba(128, 128, 128, 0.67);
+}
+.moti h1{
+    color: rgba(128, 128, 128, 0.67);
+    margin-bottom: 20px;
+}
+.moti p{
+    color: rgba(128, 128, 128, 0.67);
+    font-size: 20px;
+}
+.moti h6{
+    font-size: 15px;
+    color: rgba(255, 68, 0, 0.935);
+}
+.mani{
+    color: rgba(128, 128, 128, 0.593);
+    padding: 1vmax 1vmax;
+}
+.mani hr{
+    height:4px;
+    background-color: rgba(36, 9, 9, 0.425);
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+.mani h3{
+    margin-left: 1px;
+}
+.mani button{
+    background-color: white;
+    padding: 1vmax 1vmax;
+    border: 2px solid rgba(128, 128, 128, 0.844);
+    border-radius: 5px;
+}
+.neha{
+    width: 50%;
+    margin-top: 100px;
+    
+}
+.push{
+    margin-top: 50px;
+    margin-left:50px;
+}
+.push h1{
+    color: rgba(128, 128, 128, 0.67);
+    margin-bottom: 20px;
+}
+.push h3{
+    color: rgba(128, 128, 128, 0.67);
+    margin-left: 1px;
+}
+.push i{
+    font-size: 20px;
+    color: white;
+    border-radius: 50%;
+    margin-top: 30px;
+    padding: 1vmax ;
+    background-color:  rgba(255, 68, 0, 0.935);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
